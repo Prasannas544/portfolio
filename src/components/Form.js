@@ -11,7 +11,7 @@ const Form = () => {
     const navigate = useNavigate();
 
 
-    let endpointUrl = 'http://ec2-3-110-184-231.ap-south-1.compute.amazonaws.com:8080/submit-form-data'
+    let endpointUrl = 'https://6lltv3669d.execute-api.ap-south-1.amazonaws.com/submit-form-data'
     // let endpointUrl = 'http://localhost:8080/submit-form-data'
 
     const handleSubmit = async (e) => {
